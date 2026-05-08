@@ -18,7 +18,7 @@ class DisableUpdates : Hook(
     "Disable forced updates"
 ) {
     private val versionInfoEndpoint =
-        "https://raw.githubusercontent.com/R0rt1z2/GrindrPlus/master/version.json"
+        "https://raw.githubusercontent.com/Zeletris/GrindrPlus/master/version.json"
     private val appUpdateInfo = "com.google.android.play.core.appupdate.AppUpdateInfo"
     private val appUpdateZzm = "com.google.android.play.core.appupdate.zzm" // search for 'requestUpdateInfo(%s)'
 	private val appUpgradeManager = "rz.v" // search for 'Uri.parse("market://details?id=com.grindrapp.android");'
